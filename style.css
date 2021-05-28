@@ -133,19 +133,28 @@ main {
     line-height: 1.8rem;
     color: #757575;
 }
+
+.main-tables-container {
+    display: flex;
+    height: auto;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain ;
+    scroll-snap-type: x proximity;
+}
 .main-currency-table {
     width: 65%;
+    scroll-snap-align: center;
     min-width: 235px;
     max-width: 500px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 20px;
     font-family: "Inter", sans-serif;
 }
 .main-currency-table .currency-table--title {
     margin-top: 40px;
     margin-bottom: 15px;
     margin-left: 20px;
-    text-align: start;
+    text-align: center;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
@@ -227,17 +236,18 @@ main {
 
 .main-commissions-table {
     width: 65%;
+    scroll-snap-align: center;
     min-width: 235px;
     max-width: 500px;
     height: auto;
-    margin: 0 auto;
+    margin: 0 20px;
     font-family: "Inter", sans-serif;
 }
 .main-commissions-table .commissions-table--title {
     margin-top: 40px;
     margin-bottom: 15px;
     margin-left: 20px;
-    text-align: start;
+    text-align: center;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
@@ -546,7 +556,7 @@ main {
     min-width: 190px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
+    margin: 50px 5px 0;
     padding: 0 15px;
     background-color: var(--warm-black);
     border-radius: 10px;
