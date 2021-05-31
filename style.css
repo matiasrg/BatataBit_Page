@@ -176,7 +176,7 @@ main {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
-    color: var(--grey);
+    color: #757575;
     background-color: var(--just-white);
     text-align: start;
     padding: 15px;
@@ -269,7 +269,7 @@ main {
     font-size: 1.6rem;
     font-weight: 500;
     line-height: 1.9rem;
-    color: var(--grey);
+    color: #757575;
     background-color: var(--just-white);
     padding: 15px;
 }
